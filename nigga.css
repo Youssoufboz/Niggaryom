@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #282c34;
+    color: #61dafb;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+#styled-word {
+    font-size: 5rem;
+    transition: transform 0.3s, color 0.3s;
+}
+
+#styled-word:hover {
+    transform: scale(1.2);
+    color: #ffcc00;
+}
